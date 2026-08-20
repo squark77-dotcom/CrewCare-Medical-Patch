@@ -1,0 +1,28 @@
+kind = "slides"
+previewPath = "/medlink-deck/"
+title = "MEDLINK Patch Checklist — Slide Deck"
+description = "A 5-slide presentation about the MEDLINK Patch Checklist app: what it is, how the SAMPLE framework structures the form, voice dictation, and photo export. Uses the Developer API Docs dark-theme visual style."
+version = "1.0.0"
+id = "artifacts/medlink-deck"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/medlink-deck/" ]
+localPort = 25287
+
+[services.development]
+run = "pnpm --filter @workspace/medlink-deck run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/medlink-deck", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/medlink-deck/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25287"
+BASE_PATH = "/medlink-deck/"

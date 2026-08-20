@@ -1,0 +1,42 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-4890-8bcd-ef1234567890",
+    "position": 1,
+    "filepath": "src/pages/slides/Slide1Title.tsx",
+    "title": "Crew Care",
+    "description": "Title slide — overview of the Crew Care app",
+    "speakerNotes": ""
+  },
+  {
+    "id": "b2c3d4e5-f6a7-4901-8cde-f01234567891",
+    "position": 2,
+    "filepath": "src/pages/slides/Slide2Problem.tsx",
+    "title": "The Problem",
+    "description": "In-flight medical documentation challenges",
+    "speakerNotes": ""
+  },
+  {
+    "id": "c3d4e5f6-a7b8-4012-9def-012345678902",
+    "position": 3,
+    "filepath": "src/pages/slides/Slide3Sample.tsx",
+    "title": "SAMPLE Framework",
+    "description": "Signs, Allergies, Medications, Past History, Last Intake, Events",
+    "speakerNotes": ""
+  },
+  {
+    "id": "d4e5f6a7-b8c9-4123-9ef0-123456789013",
+    "position": 4,
+    "filepath": "src/pages/slides/Slide4Voice.tsx",
+    "title": "Voice Dictation",
+    "description": "Hands-free form entry via speech recognition",
+    "speakerNotes": ""
+  },
+  {
+    "id": "e5f6a7b8-c9d0-4234-8f01-234567890124",
+    "position": 5,
+    "filepath": "src/pages/slides/Slide5Export.tsx",
+    "title": "Export & Share",
+    "description": "Save to Photos and share via AirDrop",
+    "speakerNotes": ""
+  }
+]
